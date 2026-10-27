@@ -41,13 +41,13 @@ export const CLUES: ClueItem[] = [
   {
     id: 'cl-gagan',
     clues: [
-      'My first flight will carry a humanoid, not a human.',
+      'A humanoid robot is part of my test programme.',
       'That robot is called Vyommitra.',
       'I am India’s human spaceflight programme, with an uncrewed G1 flight targeted for 2026.',
     ],
     answer: 'Gaganyaan',
     alts: ['gaganyaan mission', 'gaganyaan g1'],
-    fact: 'Three uncrewed flights (G1–G3) precede the crewed mission. India would become the fourth nation to independently send humans to orbit.',
+    fact: 'Three uncrewed flights (G1–G3) precede the crewed mission; the humanoid Vyommitra is planned for an uncrewed flight. India would become the fourth nation to independently send humans to orbit.',
     tag: 'ISRO · Humans',
   },
   {

@@ -19,26 +19,6 @@ const PLAN = [
   { id: 'p12', time: '02:30', mins: 30, title: 'Wind down · sleep by 3', sub: 'Sleep beats two more hours of cramming', topic: 'sleep' },
 ]
 
-const ROUNDS = [
-  { icon: '🔢', title: 'Number series & analogy', body: 'Find the rule, then the number. Six patterns cover 90%.', topic: 'series' },
-  { icon: '🎲', title: 'Cube & dice', body: 'Painted-cube formulas and the opposite-face rule.', topic: 'cube' },
-  { icon: '📅', title: 'Calendar', body: 'Odd days, leap years, and the doomsday shortcut.', topic: 'calendar' },
-  { icon: '🧭', title: 'Direction', body: 'Draw the walk; use Pythagoras for the shortest path.', topic: 'direction' },
-  { icon: '🎬', title: 'Movies & mathematicians', body: 'Film → person → idea. Five films cover most clips.', topic: 'movies' },
-  { icon: '🪞', title: 'Mirror images', body: 'Plane vs water, safe letters, 11:60 clock rule.', topic: 'mirror' },
-  { icon: '🧩', title: 'Crossword', body: 'Use crossings, count letters, never leave a blank.', topic: 'crossword' },
-]
-
-const SCIENCE_ROUNDS = [
-  { icon: '🧫', title: 'Cell biology', body: 'Organelle jobs + plant vs animal differences.', topic: 'cell' },
-  { icon: '🧵', title: 'Fibre to fabric', body: 'Ginning, retting, shearing, reeling — the process words.', topic: 'fibre' },
-  { icon: '🚀', title: 'Laws of motion', body: 'Inertia, F = ma, action–reaction, numericals.', topic: 'motion' },
-  { icon: '📰', title: 'News & DTE', body: 'Nobel 2026, ISRO, cyclone Arnab, biodiversity numbers.', topic: 'news' },
-  { icon: '🧪', title: '3-clue achievements', body: 'Chandrayaan-3, optogenetics, CRISPR, IceCube…', topic: 'clue' },
-  { icon: '📺', title: 'Video round', body: 'What clip → which principle. Train the reflex.', topic: 'video' },
-  { icon: '🛠️', title: 'Hands-on activity', body: '17 chits, 5-minute plan, 30-second pitch.', topic: 'hands' },
-]
-
 export default function Home({ onOpen }: { onOpen: (id: string) => void }) {
   const { mastery, best, done, toggleDone, relayBest, relayBest25, name, setName } = useProgress()
   const [now, setNow] = useState(() => new Date())
@@ -240,20 +220,22 @@ export default function Home({ onOpen }: { onOpen: (id: string) => void }) {
         </div>
       </section>
 
-      <div className="grid-3 mt-40">
-        {ROUNDS.slice(0, 3).map((r) => (
-          <button key={r.title} className="card tight hover" style={{ textAlign: 'left' }} onClick={() => onOpen(r.topic)}>
-            <div className="row gap-10"><span style={{ fontSize: 18 }}>{r.icon}</span><b style={{ fontSize: 14 }}>{r.title}</b></div>
-            <p className="tiny dim mt-8">{r.body}</p>
-          </button>
-        ))}
-        {SCIENCE_ROUNDS.slice(0, 3).map((r) => (
-          <button key={r.title} className="card tight hover" style={{ textAlign: 'left' }} onClick={() => onOpen(r.topic)}>
-            <div className="row gap-10"><span style={{ fontSize: 18 }}>{r.icon}</span><b style={{ fontSize: 14 }}>{r.title}</b></div>
-            <p className="tiny dim mt-8">{r.body}</p>
-          </button>
-        ))}
-      </div>
+      <section className="mt-40">
+        <div className="kicker amber">Quiz-night rules that win marginal points</div>
+        <div className="grid-4 mt-14">
+          {[
+            ['One voice', 'The captain speaks. A 2-second huddle, then one answer — chaos loses tie-breaks.'],
+            ['Answer, then decorate', 'Say the answer first, add the detail after. Extra detail earns goodwill.'],
+            ['Buzz at 70%', 'In buzzer rounds, let rivals burn negatives. Do not guess at 40%.'],
+            ['Never blank', 'Unless negative marking is announced, fill every written answer.'],
+          ].map(([title, body]) => (
+            <div key={title} className="card tight">
+              <div className="h3" style={{ fontSize: 15 }}>{title}</div>
+              <p className="tiny dim mt-8">{body}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <footer className="footer">
         <span>QUIZ LAB · Agent 2 edition · built for the inter-house Maths & Science quiz, 28 Oct 2026.</span>

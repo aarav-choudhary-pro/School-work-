@@ -447,7 +447,7 @@ const news: Topic = {
       list: [
         'Aditya-L1: IIA Bengaluru made Doppler velocity images of the solar corona from the VELC payload (Oct 2026) — helps track the direction of coronal mass ejections.',
         'EOS-05: launched 4 September 2026 on GSLV-F17 — India’s first imaging satellite from geosynchronous orbit.',
-        'Gaganyaan G1: first uncrewed test flight targeted for 2026, carrying the humanoid Vyommitra; crewed flight after 2027.',
+        'Gaganyaan G1: first uncrewed test flight targeted for 2026; the humanoid Vyommitra is planned for an uncrewed flight; crewed flight after 2027.',
         'NISAR (30 July 2025, GSLV-F16): NASA–ISRO dual-band (L + S) radar satellite, world’s first dual-frequency radar imaging satellite.',
         'Chandrayaan-3 (23 Aug 2023) remains the only mission to soft-land near the Moon’s south pole; ChaSTE measured the first in-situ temperature profile there.',
       ],
@@ -510,7 +510,7 @@ const news: Topic = {
     Q('nw-05', 'news', 'Which ISRO mission produced the first Doppler velocity images of the solar corona in October 2026?', ['Aditya-L1', 'Chandrayaan-3', 'NISAR', 'Gaganyaan'], 'Aditya-L1', 'The VELC payload on Aditya-L1, analysed by IIA Bengaluru, maps the corona’s motion to track CMEs.'),
     Q('nw-06', 'news', 'EOS-05, launched on 4 September 2026, is special because it is India’s first…', ['imaging satellite from geosynchronous orbit', 'Moon lander', 'solar observatory', 'reusable rocket'], 'imaging satellite from geosynchronous orbit', 'GSLV-F17 placed EOS-05 in a geosynchronous orbit, giving a persistent view of regions of interest.'),
     Q('nw-07', 'news', 'Which satellite is the first dual-frequency radar imaging satellite, built jointly by NASA and ISRO?', ['NISAR', 'Cartosat-3', 'RISAT-2B', 'Oceansat-3'], 'NISAR', 'NISAR carries NASA’s L-band and ISRO’s S-band radar; launched 30 July 2025 on GSLV-F16.'),
-    Q('nw-08', 'news', 'Gaganyaan’s first uncrewed test flight is expected to carry which humanoid robot?', ['Vyommitra', 'Sophia', 'Mitra', 'R2-D2'], 'Vyommitra', 'Vyommitra, the half-humanoid, is slated to fly on the G1 uncrewed mission.'),
+    Q('nw-08', 'news', 'Which humanoid robot is part of the Gaganyaan programme?', ['Vyommitra', 'Sophia', 'Mitra', 'R2-D2'], 'Vyommitra', 'Vyommitra, the half-humanoid, is part of the Gaganyaan programme and is planned for an uncrewed test flight. (Sources differ on whether that is G1 or G2.)'),
     Q('nw-09', 'news', 'Which cyclone was approaching the Andhra coast in late October 2026?', ['Cyclone Arnab', 'Cyclone Amphan', 'Cyclone Fani', 'Cyclone Biparjoy'], 'Cyclone Arnab', 'Arnab intensified into a very severe cyclonic storm; Odisha prepared mass evacuations.'),
     Q('nw-10', 'news', 'Down To Earth’s October 2026 cover story “Intimate takeover” is about…', ['rainfall driven by low-pressure systems', 'tiger relocation', 'solar panel waste', 'groundwater recharge'], 'rainfall driven by low-pressure systems', 'Indian rainfall is increasingly coming from longer-lasting low-pressure systems rather than monsoon winds.'),
     Q('nw-11', 'news', 'The CSE–DTE State of India’s Environment 2026 report said how many planetary boundaries are breached?', ['5 of 9', '6 of 9', '7 of 9', '9 of 9'], '7 of 9', 'Six were breached by 2024 data; ocean acidification became the seventh.', { difficulty: 3 }),
