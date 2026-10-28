@@ -151,3 +151,16 @@ Folder: **Arena Workspace Backup** (created if missing) →
 - `docs/corrections.md` written — 16 numbered corrections with the basis for each, plus the
   original→final slide map.
 - Next: commit + push, upload to Drive, hand over.
+
+### Turn 2026-10-28 (ship)
+- Committed `ce26bc0` and pushed to `arena/3c56a36f-school-work`.
+- Uploaded to Drive → **Arena Workspace Backup / Cable Tray Training - Arena Rebuild (28 Oct 2026)**:
+  - `Cable Tray Routing Design Training - FINAL.pptx` (172 KB, 25 slides, editable, notes, fades)
+  - `Cable Tray Routing Design Training - FINAL.pdf` (628 KB, vector)
+  - `01 - contact sheet (all 25 slides).png`
+  - `02 - what I corrected and why (sources).md`
+  - `03 - LOGBOOK.md`
+  - `Quiz Lab (earlier chat work) - source.zip`
+  - the original attachment is kept as `ORIGINAL - …pptx`; the dead Chromium-pipeline PNGs were moved to
+    `superseded drafts (old pipeline)`.
+- Status: **delivered, awaiting the father's review.** Next edits, if any, belong in `content/content.py`.
