@@ -627,11 +627,13 @@ def _bars(c: Canvas, spec, x, y, w, h):
     gap = 24.0
     bw = (w - gap * (n + 1)) / n
     base = y + h - 36
-    steps = 4
+    steps = spec.get("steps", 4)
     for i in range(steps + 1):
         gy = base - (h - 60) * i / steps
         c.line(x, gy, x + w, gy, "#E9EFF6", 0.6)
-        c.text(x - 46, gy - 4, 38, f"{maxv * i / steps:g}", 6.4, "mono", DIM, align="right")
+        tick = maxv * i / steps
+        label = f"{tick:g}" if spec.get("decimals") is None else f"{tick:.{spec['decimals']}f}"
+        c.text(x - 46, gy - 4, 38, label, 6.4, "mono", DIM, align="right")
     cmap = {"red": RED, "blue": BLUE, "amber": "#C98A12", "green": GREEN}
     for i, b in enumerate(bars):
         bx = x + gap + i * (bw + gap)

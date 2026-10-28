@@ -307,6 +307,7 @@
    "chart": {
     "kind": "bar",
     "unit": "%",
+    "title": "NEC 392.22 FILL LIMIT (%)",
     "max": 60,
     "bars": [
      {
@@ -536,8 +537,10 @@
    "chart": {
     "kind": "bar",
     "unit": "×",
-    "max": 1.1,
+    "title": "DERATING FACTOR (× TABULATED CURRENT)",
     "decimals": 2,
+    "max": 1.25,
+    "steps": 5,
     "bars": [
      {
       "label": "Open\nladder",

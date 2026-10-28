@@ -226,6 +226,7 @@ S({
     "chart": {
         "kind": "bar",
         "unit": "%",
+        "title": "NEC 392.22 FILL LIMIT (%)",
         "max": 60,
         "bars": [
             {"label": "Power &\nlighting", "value": 40, "color": "red", "note": "hard limit"},
@@ -336,7 +337,10 @@ S({
     "chart": {
         "kind": "bar",
         "unit": "×",
-        "max": 1.1,
+        "title": "DERATING FACTOR (× TABULATED CURRENT)",
+        "decimals": 2,
+        "max": 1.25,
+        "steps": 5,
         "decimals": 2,
         "bars": [
             {"label": "Open\nladder", "value": 1.0, "color": "blue", "note": "reference"},
