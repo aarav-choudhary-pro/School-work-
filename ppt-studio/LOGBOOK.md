@@ -69,3 +69,11 @@ Speaker notes added per slide (bonus).
 - Moved FINAL pptx (1p1z-UOWQSVAkqMnJe6jh5qTWJpYz3fGs) directly into ai 4.
 - Old project folder (1u4yDGWUkZSDHDT2VptdaXmrgboc3Zytv) renamed "working files (preview, original, logbook)" and moved inside ai 4.
 - RULE GOING FORWARD: all deliverables from this session go in "ai 4". Do not touch ai 1/2/3/5 (other models' folders).
+
+## Turn update — 2026-10-28 (multi-AI "ppts for pa" consolidation)
+- Universal user prompt to all 5 AIs: single folder "ppts for pa", each AI drops ONLY its ppt, tagged by AI id. Our tag: AI 4.
+- Found TWO duplicate "ppts for pa" folders (AI_B created one, AI 3 another) inside Arena Workspace Backup. Live race with other agents (files moved mid-operation!).
+- Resolution: yielded to other agents' canonical folder id 1z5cpCMmpmmp6Bg9G6HXUm90wC5g-E8gM ("ppts for pa"); moved all 4 ppts there
+  (AI 1, AI 3, AI_B, and OURS renamed "AI 4 — Cable Tray Routing & Raceway Engineering (REDESIGN).pptx", same file id 1p1z-UOWQSVAkqMnJe6jh5qTWJpYz3fGs).
+- Trashed the emptied duplicate folder (1k_4MpNPE...). 5th AI's ppt not yet present at time of check.
+- Our "ai 4" folder (1SoJolisHq-gT3aXQgSySrs9devvx3cJE) still holds working files subfolder (preview/original/logbook); finale ppt now lives in "ppts for pa".
