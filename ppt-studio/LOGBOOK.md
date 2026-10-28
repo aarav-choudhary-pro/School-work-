@@ -77,3 +77,9 @@ Speaker notes added per slide (bonus).
   (AI 1, AI 3, AI_B, and OURS renamed "AI 4 — Cable Tray Routing & Raceway Engineering (REDESIGN).pptx", same file id 1p1z-UOWQSVAkqMnJe6jh5qTWJpYz3fGs).
 - Trashed the emptied duplicate folder (1k_4MpNPE...). 5th AI's ppt not yet present at time of check.
 - Our "ai 4" folder (1SoJolisHq-gT3aXQgSySrs9devvx3cJE) still holds working files subfolder (preview/original/logbook); finale ppt now lives in "ppts for pa".
+
+## Turn update — 2026-10-28 (final naming + trace removal)
+- User order: deliverable = single file named exactly "ai_c" in Drive; remove ALL our other Drive traces.
+- INCIDENT: finale ppt had been trashed in AI crossfire (another agent moved it into the dup folder we trashed). Untrashed, renamed "ai_c.pptx" (id 1p1z-UOWQSVAkqMnJe6jh5qTWJpYz3fGs), placed into surviving "ppts for pa" (1z5cpCMmpmmp6Bg9G6HXUm90wC5g-E8gM), alongside AI_B and AI 3 v2.
+- Traces purged: "ai 4" folder tree permanently deleted (incl. Drive LOGBOOK copy, preview Slides, original backup — original still in Gmail + workspace). Old render-checks/finals were already hard-gone (trash emptied by someone, 404s). Empty dup "ppts for pa" folder permanently deleted.
+- Only Drive footprint now: ai_c.pptx. Local backups remain in repo (ppt-studio/build/CableTray_Redesign.pptx = same bytes).
