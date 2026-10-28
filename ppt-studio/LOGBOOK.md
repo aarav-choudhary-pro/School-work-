@@ -41,3 +41,13 @@ Speaker notes added per slide (bonus).
 - [ ] build/build_deck.py written & run → build/CableTray_Redesign.pptx
 - [ ] Drive subfolder created, render loop round 1
 - [ ] Iterate until polished; upload FINAL pptx + logbook to Drive; email? (not requested — Drive only)
+
+## Turn update — 2026-10-28 (deck DELIVERED)
+- build/build_deck.py = full generator (run `python3 build_deck.py` in build/ after ./install.sh). 16 slides, all editable, fade transitions, speaker notes on every slide.
+- Review loop ran 2 rounds via Drive→Slides→PDF→pypdfium2. v2 fixes: title decor tidy, slide-2/13 card heights, slide-6 tier dots via 0.5" col-0 cell margin.
+- DELIVERED to Drive folder "Cable Tray Training PPT (Arena Redesign)" (id 1u4yDGWUkZSDHDT2VptdaXmrgboc3Zytv, inside Arena Workspace Backup):
+  * FINAL pptx id 1NiGWwKLXrj_Z06AvkQe00Ff0c-oFfft1
+  * Slides preview id 1S39c60BOAqL648LCm7xKWzD2fUvA6-XG7JbTNMkrbIg
+  * Original backup id 1ZX75zngkf_axweiaBo2DtzwbM4n4zVGa
+- Render-check scratch files trashed. Corrections applied to content: slide-9 LaTeX artifact → plain text rule; IEEE 525 → "IEEE Std 525"; unit/typography polish only — substance unchanged.
+- Remaining optional: upload LOGBOOK.md copy to Drive folder each turn if user continues iterating.
