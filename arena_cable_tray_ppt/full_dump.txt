@@ -1,0 +1,475 @@
+Slide size: 12192000 x 6858000 EMU (13.33in x 7.50in)
+Number of slides: 16
+====================================================================================================
+
+########## SLIDE 1 ##########
+Layout: BLANK
+--- Shape: Google Shape;84;p13 | type=AUTO_SHAPE (1) | pos=(762000,4787205) size=(609600,38100)
+--- Shape: Google Shape;85;p13 | type=TEXT_BOX (17) | pos=(762000,1966019) size=(11430000,200025)
+    TEXT: INDUSTRIAL ELECTRICAL & INSTRUMENTATION DESIGN
+--- Shape: Google Shape;86;p13 | type=TEXT_BOX (17) | pos=(762000,2356544) size=(9701212,1182885)
+    TEXT: Cable Tray Routing & Raceway Engineering
+--- Shape: Google Shape;87;p13 | type=TEXT_BOX (17) | pos=(762000,3768030) size=(7334250,571500)
+    TEXT: Design standards, fill factors, structural supports, clearances, covers, and underground trenches
+--- Shape: Google Shape;88;p13 | type=TEXT_BOX (17) | pos=(1676400,4720530) size=(4667250,171450)
+    TEXT: NEC 392 • NEMA VE 1 / VE 2 • IEEE 525 • IEC 61537
+
+########## SLIDE 2 ##########
+Layout: BLANK
+--- Shape: Google Shape;93;p14 | type=AUTO_SHAPE (1) | pos=(762000,2738437) size=(2495550,1885950)
+--- Shape: Google Shape;94;p14 | type=AUTO_SHAPE (1) | pos=(3486150,2738437) size=(2495550,1885950)
+--- Shape: Google Shape;95;p14 | type=AUTO_SHAPE (1) | pos=(6210300,2828925) size=(2495550,1704975)
+--- Shape: Google Shape;96;p14 | type=AUTO_SHAPE (1) | pos=(8934450,2828925) size=(2495550,1704975)
+--- Shape: Google Shape;97;p14 | type=PICTURE (13) | pos=(1000125,3052762) size=(266700,266700)
+    PICTURE shape
+--- Shape: Google Shape;98;p14 | type=PICTURE (13) | pos=(3724275,3052762) size=(200025,266700)
+    PICTURE shape
+--- Shape: Google Shape;99;p14 | type=PICTURE (13) | pos=(6448425,3143250) size=(266700,266700)
+    PICTURE shape
+--- Shape: Google Shape;100;p14 | type=PICTURE (13) | pos=(9172575,3143250) size=(266700,266700)
+    PICTURE shape
+--- Shape: Google Shape;101;p14 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Follow industry codes to avoid construction rework and thermal hazards.
+--- Shape: Google Shape;102;p14 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: TRAINING SCOPE
+--- Shape: Google Shape;103;p14 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Core Design Modules
+--- Shape: Google Shape;104;p14 | type=TEXT_BOX (17) | pos=(1000125,3471862) size=(2650331,219075)
+    TEXT: Hardware & Selection
+--- Shape: Google Shape;105;p14 | type=TEXT_BOX (17) | pos=(1000125,3767137) size=(2114550,542925)
+    TEXT: Ladder, solid bottom, channel, and wire mesh configurations.
+--- Shape: Google Shape;106;p14 | type=TEXT_BOX (17) | pos=(3724275,3471862) size=(2650331,219075)
+    TEXT: NEC Fill Capacity
+--- Shape: Google Shape;107;p14 | type=TEXT_BOX (17) | pos=(3724275,3767137) size=(2114550,542925)
+    TEXT: Cross-section limits, derating, and future reserve space.
+--- Shape: Google Shape;108;p14 | type=TEXT_BOX (17) | pos=(6448425,3562350) size=(2650331,219075)
+    TEXT: Segregation Rules
+--- Shape: Google Shape;109;p14 | type=TEXT_BOX (17) | pos=(6448425,3857625) size=(2114550,361950)
+    TEXT: EMI separation between HV, LV, and instrument signals.
+--- Shape: Google Shape;110;p14 | type=TEXT_BOX (17) | pos=(9172575,3562350) size=(2650331,219075)
+    TEXT: NEMA Support Spans
+--- Shape: Google Shape;111;p14 | type=TEXT_BOX (17) | pos=(9172575,3857625) size=(2114550,361950)
+    TEXT: Structural load classes and fitting support rules.
+
+########## SLIDE 3 ##########
+Layout: BLANK
+--- Shape: Google Shape;116;p15 | type=AUTO_SHAPE (1) | pos=(762000,2714625) size=(2495550,1933575)
+--- Shape: Google Shape;117;p15 | type=AUTO_SHAPE (1) | pos=(3486150,2595562) size=(2495550,2171700)
+--- Shape: Google Shape;118;p15 | type=AUTO_SHAPE (1) | pos=(6210300,2714625) size=(2495550,1933575)
+--- Shape: Google Shape;119;p15 | type=AUTO_SHAPE (1) | pos=(8934450,2714625) size=(2495550,1933575)
+--- Shape: Google Shape;120;p15 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Specify hot-dip galvanized steel, marine-grade 6063 aluminum, or FRP for corrosive environments.
+--- Shape: Google Shape;121;p15 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: COMPONENT SELECTION
+--- Shape: Google Shape;122;p15 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Tray Geometry & Industrial Service
+--- Shape: Google Shape;123;p15 | type=TEXT_BOX (17) | pos=(1076325,3028950) size=(2450306,238125)
+    TEXT: Ladder Tray
+--- Shape: Google Shape;124;p15 | type=TEXT_BOX (17) | pos=(1076325,3343275) size=(1962150,361950)
+    TEXT: 9-inch or 12-inch rung spacing.
+--- Shape: Google Shape;125;p15 | type=TEXT_BOX (17) | pos=(1076325,3819525) size=(1962150,514350)
+    TEXT: Application: Heavy power cables with maximum ventilation.
+--- Shape: Google Shape;126;p15 | type=TEXT_BOX (17) | pos=(3800475,2909887) size=(2060257,476250)
+    TEXT: Solid Bottom / Trough
+--- Shape: Google Shape;127;p15 | type=TEXT_BOX (17) | pos=(3800475,3462337) size=(1962150,361950)
+    TEXT: Continuous metallic base protection.
+--- Shape: Google Shape;128;p15 | type=TEXT_BOX (17) | pos=(3800475,3938587) size=(1962150,514350)
+    TEXT: Application: Sensitive instrumentation and EMI shield lines.
+--- Shape: Google Shape;129;p15 | type=TEXT_BOX (17) | pos=(6524625,3028950) size=(2450306,238125)
+    TEXT: Wire Mesh (Basket)
+--- Shape: Google Shape;130;p15 | type=TEXT_BOX (17) | pos=(6524625,3343275) size=(1962150,361950)
+    TEXT: Field-adaptable lightweight grid.
+--- Shape: Google Shape;131;p15 | type=TEXT_BOX (17) | pos=(6524625,3819525) size=(1962150,514350)
+    TEXT: Application: Cat6/Fiber telecom, data center overhead drops.
+--- Shape: Google Shape;132;p15 | type=TEXT_BOX (17) | pos=(9248775,3028950) size=(2450306,238125)
+    TEXT: Channel Tray
+--- Shape: Google Shape;133;p15 | type=TEXT_BOX (17) | pos=(9248775,3343275) size=(1962150,361950)
+    TEXT: 3 to 6-inch narrow single-run track.
+--- Shape: Google Shape;134;p15 | type=TEXT_BOX (17) | pos=(9248775,3819525) size=(1962150,514350)
+    TEXT: Application: Single equipment branch drops from main rack.
+
+########## SLIDE 4 ##########
+Layout: BLANK
+--- Shape: Google Shape;139;p16 | type=AUTO_SHAPE (1) | pos=(762000,2647950) size=(3352800,2066925)
+--- Shape: Google Shape;140;p16 | type=AUTO_SHAPE (1) | pos=(4419600,2562225) size=(3352800,2238375)
+--- Shape: Google Shape;141;p16 | type=AUTO_SHAPE (1) | pos=(8077200,2647950) size=(3352800,2066925)
+--- Shape: Google Shape;142;p16 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Formula: Tray Width ≥ [∑(Cable OD)² × 1.25] / Usable Depth to guarantee single-layer spacing when required.
+--- Shape: Google Shape;143;p16 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: NEC 392 COMPLIANCE
+--- Shape: Google Shape;144;p16 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Tray Fill & Cross-Section Calculations
+--- Shape: Google Shape;145;p16 | type=TEXT_BOX (17) | pos=(735806,3038475) size=(3405187,609600)
+    TEXT: 40%
+--- Shape: Google Shape;146;p16 | type=TEXT_BOX (17) | pos=(735806,3724275) size=(3405187,200025)
+    TEXT: Power Cable Fill Limit
+--- Shape: Google Shape;147;p16 | type=TEXT_BOX (17) | pos=(735806,3981450) size=(3405187,342900)
+    TEXT: Maximum allowable cross-sectional fill for multi-conductor power under NEC 392.
+--- Shape: Google Shape;148;p16 | type=TEXT_BOX (17) | pos=(4393406,2952750) size=(3405187,609600)
+    TEXT: 50%
+--- Shape: Google Shape;149;p16 | type=TEXT_BOX (17) | pos=(4393406,3638550) size=(3405187,200025)
+    TEXT: Control & Signal Limit
+--- Shape: Google Shape;150;p16 | type=TEXT_BOX (17) | pos=(4393406,3895725) size=(3405187,514350)
+    TEXT: Maximum usable area for non-heat generating control and instrumentation lines.
+--- Shape: Google Shape;151;p16 | type=TEXT_BOX (17) | pos=(8051006,3038475) size=(3405187,609600)
+    TEXT: 20%
+--- Shape: Google Shape;152;p16 | type=TEXT_BOX (17) | pos=(8051006,3724275) size=(3405187,200025)
+    TEXT: Future Reserve Margin
+--- Shape: Google Shape;153;p16 | type=TEXT_BOX (17) | pos=(8051006,3981450) size=(3405187,342900)
+    TEXT: Mandatory spare width reserved for upcoming plant expansions and revamps.
+
+########## SLIDE 5 ##########
+Layout: BLANK
+--- Shape: Google Shape;158;p17 | type=AUTO_SHAPE (1) | pos=(762000,1871662) size=(5181600,3619500)
+--- Shape: Google Shape;159;p17 | type=AUTO_SHAPE (1) | pos=(6248400,1871662) size=(5181600,3619500)
+--- Shape: Google Shape;160;p17 | type=PICTURE (13) | pos=(1076325,2214562) size=(209550,209550)
+    PICTURE shape
+--- Shape: Google Shape;161;p17 | type=PICTURE (13) | pos=(6562725,2214562) size=(238125,209550)
+    PICTURE shape
+--- Shape: Google Shape;162;p17 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Incorrect single-core bundling creates hazardous circulating currents and severe tray overheating.
+--- Shape: Google Shape;163;p17 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: INSTALLATION GEOMETRY
+--- Shape: Google Shape;164;p17 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Laying Arrangement: 1-Core vs Multi-Core
+--- Shape: Google Shape;165;p17 | type=TEXT_BOX (17) | pos=(1400175,2185987) size=(2625328,266700)
+    TEXT: Single-Core Cables
+--- Shape: Google Shape;166;p17 | type=TEXT_BOX (17) | pos=(1076325,2605087) size=(4648200,361950)
+    TEXT: • Trefoil Formation: Route in grouped trefoils to balance induced magnetic fields.
+--- Shape: Google Shape;167;p17 | type=TEXT_BOX (17) | pos=(1076325,3081337) size=(4648200,361950)
+    TEXT: • Single-Layer Rule: Strictly no multi-layer stacking; space groups by 2 × Cable Diameter.
+--- Shape: Google Shape;168;p17 | type=TEXT_BOX (17) | pos=(1076325,3557587) size=(4648200,361950)
+    TEXT: • Short-Circuit Cleating: Rated cleats every 1.5 m to withstand dynamic electromagnetic burst.
+--- Shape: Google Shape;169;p17 | type=TEXT_BOX (17) | pos=(1076325,4033837) size=(4648200,346200)
+    TEXT: • Non-Magnetic Clamps: Stainless steel or aluminum hardware to stop eddy heating.
+--- Shape: Google Shape;170;p17 | type=TEXT_BOX (17) | pos=(6915150,2185987) size=(2475309,266700)
+    TEXT: Multi-Core Cables
+--- Shape: Google Shape;171;p17 | type=TEXT_BOX (17) | pos=(6562725,2605087) size=(4648200,361950)
+    TEXT: • Flat Side-by-Side: Low-voltage power placed touching or spaced by 1 × Cable Diameter.
+--- Shape: Google Shape;172;p17 | type=TEXT_BOX (17) | pos=(6562725,3081337) size=(4648200,361950)
+    TEXT: • Thermal Stacking: Avoid multi-layer stacking unless ampacity derating is applied.
+--- Shape: Google Shape;173;p17 | type=TEXT_BOX (17) | pos=(6562725,3557587) size=(4648200,361950)
+    TEXT: • Direct Tie Fastening: UV-resistant heavy nylon or coated steel ties on rungs.
+--- Shape: Google Shape;174;p17 | type=TEXT_BOX (17) | pos=(6562725,4033837) size=(4648200,361950)
+    TEXT: • Vertical Rung Anchoring: Support multi-core every 450 mm on vertical risers.
+
+########## SLIDE 6 ##########
+Layout: BLANK
+--- Shape: Google Shape;179;p18 | type=AUTO_SHAPE (1) | pos=(762000,2452687) size=(10668000,2457450)
+--- Shape: Google Shape;180;p18 | type=TABLE (19) | pos=(762000,2452687) size=(3000000,3000000)
+    TABLE 5x4
+      Row0: ['Tray Level / Class', 'Voltage Level', 'Vertical Separation', 'Physical Divider Rule']
+      Row1: ['Top Tier (Tier 1)', 'High Voltage (> 1 kV to 33 kV)', 'Top position', 'Separate tray; no shared services']
+      Row2: ['Tier 2', 'Low Voltage Power (< 1 kV)', '300 mm from HV', 'Solid metallic barrier if in same tray']
+      Row3: ['Tier 3', 'Control & Interlocking (110V/230V)', '250 mm from LV', 'Perforated barrier minimum']
+      Row4: ['Bottom Tier (Tier 4)', 'Analog & Fieldbus (< 50V / 4-20mA)', '450 mm from Power', 'Dedicated solid bottom tray or conduit']
+--- Shape: Google Shape;181;p18 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Maintain minimum 90° right-angle crossovers when signal trays must intersect power routes.
+--- Shape: Google Shape;182;p18 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: ELECTROMAGNETIC COMPATIBILITY
+--- Shape: Google Shape;183;p18 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Voltage Segregation & Separation Distances
+
+########## SLIDE 7 ##########
+Layout: BLANK
+--- Shape: Google Shape;188;p19 | type=AUTO_SHAPE (1) | pos=(762000,1971675) size=(5143500,1038225)
+--- Shape: Google Shape;189;p19 | type=AUTO_SHAPE (1) | pos=(762000,3162300) size=(5143500,1038225)
+--- Shape: Google Shape;190;p19 | type=AUTO_SHAPE (1) | pos=(762000,4352925) size=(5143500,1038225)
+--- Shape: Google Shape;191;p19 | type=PICTURE (13) | pos=(6286500,1871662) size=(5143500,3619500)
+    PICTURE shape
+--- Shape: Google Shape;192;p19 | type=PICTURE (13) | pos=(6286500,1871662) size=(5143500,3619500)
+    PICTURE shape
+--- Shape: Google Shape;193;p19 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Thermal expansion guide: Install expansion splice plates every 30 m on straight outdoor aluminum runs.
+--- Shape: Google Shape;194;p19 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: STRUCTURAL ENGINEERING
+--- Shape: Google Shape;195;p19 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: NEMA VE 1 / VE 2 Support Standards
+--- Shape: Google Shape;196;p19 | type=TEXT_BOX (17) | pos=(962025,2171700) size=(6225778,219075)
+    TEXT: NEMA Load Class Ratings
+--- Shape: Google Shape;197;p19 | type=TEXT_BOX (17) | pos=(962025,2447925) size=(4838700,361950)
+    TEXT: Class 12C (100 lbs/ft @ 12ft) or 20C (100 lbs/ft @ 20ft). Factor wind, ice, and 200 lb concentrated worker load.
+--- Shape: Google Shape;198;p19 | type=TEXT_BOX (17) | pos=(962025,3362325) size=(6225778,219075)
+    TEXT: Splice Joint Location (0.25 L Rule)
+--- Shape: Google Shape;199;p19 | type=TEXT_BOX (17) | pos=(962025,3638550) size=(4838700,361950)
+    TEXT: Locate splice connectors at 1/4 span distance from support beam. Never place splices at mid-span.
+--- Shape: Google Shape;200;p19 | type=TEXT_BOX (17) | pos=(962025,4552950) size=(6225778,219075)
+    TEXT: NEMA VE 2 Fitting Support
+--- Shape: Google Shape;201;p19 | type=TEXT_BOX (17) | pos=(962025,4829175) size=(4838700,361950)
+    TEXT: Support within 2 feet (600 mm) of each horizontal bend, tee, cross, or vertical reducer fitting.
+
+########## SLIDE 8 ##########
+Layout: BLANK
+--- Shape: Google Shape;206;p20 | type=AUTO_SHAPE (1) | pos=(6286500,1838325) size=(5143500,1114425)
+--- Shape: Google Shape;207;p20 | type=AUTO_SHAPE (1) | pos=(6286500,3124200) size=(5143500,1114425)
+--- Shape: Google Shape;208;p20 | type=AUTO_SHAPE (1) | pos=(6286500,4410075) size=(5143500,1114425)
+--- Shape: Google Shape;209;p20 | type=PICTURE (13) | pos=(762000,1871662) size=(5143500,3619500)
+    PICTURE shape
+--- Shape: Google Shape;210;p20 | type=PICTURE (13) | pos=(762000,1871662) size=(5143500,3619500)
+    PICTURE shape
+--- Shape: Google Shape;211;p20 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Comply with OSHA 1910 headroom and maintain 2.1 m clear walkway below bottom rack.
+--- Shape: Google Shape;212;p20 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: INSTALLABILITY & ERGONOMICS
+--- Shape: Google Shape;213;p20 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Substation & Switchgear Room Clearances
+--- Shape: Google Shape;214;p20 | type=TEXT_BOX (17) | pos=(6524625,2076450) size=(5667375,219075)
+    TEXT: 300 mm (12 in) Top Headroom
+--- Shape: Google Shape;215;p20 | type=TEXT_BOX (17) | pos=(6524625,2352675) size=(4762500,361950)
+    TEXT: Required overhead clearance above tray side rail for cable pulling and roller guides.
+--- Shape: Google Shape;216;p20 | type=TEXT_BOX (17) | pos=(6524625,3362325) size=(5667375,219075)
+    TEXT: 600 mm (24 in) Side Access
+--- Shape: Google Shape;217;p20 | type=TEXT_BOX (17) | pos=(6524625,3638550) size=(4762500,361950)
+    TEXT: Clear pathway between tray edge and building wall or structural columns for personnel access.
+--- Shape: Google Shape;218;p20 | type=TEXT_BOX (17) | pos=(6524625,4648200) size=(5667375,219075)
+    TEXT: Switchgear Dropping Corridor
+--- Shape: Google Shape;219;p20 | type=TEXT_BOX (17) | pos=(6524625,4924425) size=(4762500,361950)
+    TEXT: Align overhead trays directly with panel top-entry plates to avoid sharp s-bends.
+
+########## SLIDE 9 ##########
+Layout: BLANK
+--- Shape: Google Shape;224;p21 | type=AUTO_SHAPE (1) | pos=(762000,2590800) size=(2495550,2181225)
+--- Shape: Google Shape;225;p21 | type=AUTO_SHAPE (1) | pos=(3486150,2590800) size=(2495550,2181225)
+--- Shape: Google Shape;226;p21 | type=AUTO_SHAPE (1) | pos=(6210300,2276475) size=(2495550,2809875)
+--- Shape: Google Shape;227;p21 | type=AUTO_SHAPE (1) | pos=(8934450,2590800) size=(2495550,2181225)
+--- Shape: Google Shape;228;p21 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Specify tray fitting radius matching the largest cable diameter: $R_{\text{fitting}} \ge \text{MBR}_{\text{max}}$.
+--- Shape: Google Shape;229;p21 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: PULLING STRESS & FITTINGS
+--- Shape: Google Shape;230;p21 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Cable Minimum Bending Radius (MBR)
+--- Shape: Google Shape;231;p21 | type=TEXT_BOX (17) | pos=(678656,2895600) size=(2662237,1571625)
+    TEXT: CLASS 1
+--- Shape: Google Shape;232;p21 | type=TEXT_BOX (17) | pos=(3402806,2895600) size=(2662237,1571625)
+    TEXT: CLASS 2
+--- Shape: Google Shape;233;p21 | type=TEXT_BOX (17) | pos=(6126956,2581275) size=(2662237,2200275)
+    TEXT: CLASS 3
+--- Shape: Google Shape;234;p21 | type=TEXT_BOX (17) | pos=(8851106,2895600) size=(2662237,1571625)
+    TEXT: CLASS 4
+--- Shape: Google Shape;235;p21 | type=TEXT_BOX (17) | pos=(684609,3219450) size=(2650331,285750)
+    TEXT: Control / Signal
+--- Shape: Google Shape;236;p21 | type=TEXT_BOX (17) | pos=(747712,3581400) size=(2524125,457200)
+    TEXT: 6 × OD
+--- Shape: Google Shape;237;p21 | type=TEXT_BOX (17) | pos=(747712,4114800) size=(2524125,342900)
+    TEXT: Unarmored instrument pairs; select 300 mm fitting radius.
+--- Shape: Google Shape;238;p21 | type=TEXT_BOX (17) | pos=(3408759,3219450) size=(2650331,285750)
+    TEXT: LV Power
+--- Shape: Google Shape;239;p21 | type=TEXT_BOX (17) | pos=(3471862,3581400) size=(2524125,457200)
+    TEXT: 8–12 × OD
+--- Shape: Google Shape;240;p21 | type=TEXT_BOX (17) | pos=(3471862,4114800) size=(2524125,342900)
+    TEXT: Armored & unarmored LV; select 450 mm fitting radius.
+--- Shape: Google Shape;241;p21 | type=TEXT_BOX (17) | pos=(6132909,2905125) size=(2650331,285750)
+    TEXT: MV / HV Shielded
+--- Shape: Google Shape;242;p21 | type=TEXT_BOX (17) | pos=(6196012,3267075) size=(2524125,914400)
+    TEXT: 12–15 × OD
+--- Shape: Google Shape;243;p21 | type=TEXT_BOX (17) | pos=(6196012,4257675) size=(2524125,514350)
+    TEXT: Medium voltage tape shield; specify 600–900 mm fitting radius.
+--- Shape: Google Shape;244;p21 | type=TEXT_BOX (17) | pos=(8857059,3219450) size=(2650331,285750)
+    TEXT: Optical Fiber
+--- Shape: Google Shape;245;p21 | type=TEXT_BOX (17) | pos=(8920162,3581400) size=(2524125,457200)
+    TEXT: 20 × OD
+--- Shape: Google Shape;246;p21 | type=TEXT_BOX (17) | pos=(8920162,4114800) size=(2524125,342900)
+    TEXT: Dynamic pulling limit to prevent internal glass micro-fractures.
+
+########## SLIDE 10 ##########
+Layout: BLANK
+--- Shape: Google Shape;251;p22 | type=AUTO_SHAPE (1) | pos=(762000,2324100) size=(2495550,2714625)
+--- Shape: Google Shape;252;p22 | type=AUTO_SHAPE (1) | pos=(3486150,2433637) size=(2495550,2495550)
+--- Shape: Google Shape;253;p22 | type=AUTO_SHAPE (1) | pos=(6210300,2433637) size=(2495550,2495550)
+--- Shape: Google Shape;254;p22 | type=AUTO_SHAPE (1) | pos=(8934450,2324100) size=(2495550,2714625)
+--- Shape: Google Shape;255;p22 | type=PICTURE (13) | pos=(1000125,2638425) size=(381000,381000)
+    PICTURE shape
+--- Shape: Google Shape;256;p22 | type=PICTURE (13) | pos=(3724275,2747962) size=(381000,381000)
+    PICTURE shape
+--- Shape: Google Shape;257;p22 | type=PICTURE (13) | pos=(6448425,2747962) size=(381000,381000)
+    PICTURE shape
+--- Shape: Google Shape;258;p22 | type=PICTURE (13) | pos=(9172575,2638425) size=(381000,381000)
+    PICTURE shape
+--- Shape: Google Shape;259;p22 | type=PICTURE (13) | pos=(1071562,2733675) size=(238125,190500)
+    PICTURE shape
+--- Shape: Google Shape;260;p22 | type=PICTURE (13) | pos=(3819525,2843212) size=(190500,190500)
+    PICTURE shape
+--- Shape: Google Shape;261;p22 | type=PICTURE (13) | pos=(6519862,2843212) size=(238125,190500)
+    PICTURE shape
+--- Shape: Google Shape;262;p22 | type=PICTURE (13) | pos=(9267825,2733675) size=(190500,190500)
+    PICTURE shape
+--- Shape: Google Shape;263;p22 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Specify heavy-duty stainless steel cover hold-down clamps rated for local design wind velocities.
+--- Shape: Google Shape;264;p22 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: ENVIRONMENTAL & THERMAL DESIGN
+--- Shape: Google Shape;265;p22 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Cable Tray Cover Philosophy
+--- Shape: Google Shape;266;p22 | type=TEXT_BOX (17) | pos=(1000125,3171825) size=(2220277,438150)
+    TEXT: Peaked / Flanged Covers
+--- Shape: Google Shape;267;p22 | type=TEXT_BOX (17) | pos=(1000125,3686175) size=(2114550,600075)
+    TEXT: Pitched profile sheds rainwater, snow, and chemical process deposits outdoors.
+--- Shape: Google Shape;268;p22 | type=TEXT_BOX (17) | pos=(1000125,4400550) size=(2114550,323850)
+    TEXT: Use: Outdoor racks & pipe bridges
+--- Shape: Google Shape;269;p22 | type=TEXT_BOX (17) | pos=(3724275,3281362) size=(2650331,219075)
+    TEXT: Mechanical Protection
+--- Shape: Google Shape;270;p22 | type=TEXT_BOX (17) | pos=(3724275,3576637) size=(2114550,600075)
+    TEXT: Solid covers mandatory within 1.8 m of platforms, stairs, and crane lift corridors.
+--- Shape: Google Shape;271;p22 | type=TEXT_BOX (17) | pos=(3724275,4291012) size=(2114550,323850)
+    TEXT: Use: Falling tool & slag zones
+--- Shape: Google Shape;272;p22 | type=TEXT_BOX (17) | pos=(6448425,3281362) size=(2650331,219075)
+    TEXT: Ampacity Derating
+--- Shape: Google Shape;273;p22 | type=TEXT_BOX (17) | pos=(6448425,3576637) size=(2114550,600075)
+    TEXT: Solid unventilated covers trap heat, penalizing cable ampacity by 10% to 15%.
+--- Shape: Google Shape;274;p22 | type=TEXT_BOX (17) | pos=(6448425,4291012) size=(2114550,323850)
+    TEXT: Derating: Apply 0.85–0.90 factor
+--- Shape: Google Shape;275;p22 | type=TEXT_BOX (17) | pos=(9172575,3171825) size=(2220277,438150)
+    TEXT: Raised Standoff Spacers
+--- Shape: Google Shape;276;p22 | type=TEXT_BOX (17) | pos=(9172575,3686175) size=(2114550,600075)
+    TEXT: 25–50 mm raised cover brackets restore convective airflow while blocking sunlight.
+--- Shape: Google Shape;277;p22 | type=TEXT_BOX (17) | pos=(9172575,4400550) size=(2114550,323850)
+    TEXT: Fix: Avoid thermal choke points
+
+########## SLIDE 11 ##########
+Layout: BLANK
+--- Shape: Google Shape;282;p23 | type=AUTO_SHAPE (1) | pos=(6286500,2000250) size=(5143500,1019175)
+--- Shape: Google Shape;283;p23 | type=AUTO_SHAPE (1) | pos=(6286500,3171825) size=(5143500,1019175)
+--- Shape: Google Shape;284;p23 | type=AUTO_SHAPE (1) | pos=(6286500,4343400) size=(5143500,1019175)
+--- Shape: Google Shape;285;p23 | type=PICTURE (13) | pos=(762000,1871662) size=(5143500,3619500)
+    PICTURE shape
+--- Shape: Google Shape;286;p23 | type=PICTURE (13) | pos=(762000,1871662) size=(5143500,3619500)
+    PICTURE shape
+--- Shape: Google Shape;287;p23 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Segregate MV power on one side wall and control/instrumentation on the opposing trench wall.
+--- Shape: Google Shape;288;p23 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: CIVIL & SUBSTATION INTERFACE
+--- Shape: Google Shape;289;p23 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Underground Cable Trench Standards
+--- Shape: Google Shape;290;p23 | type=TEXT_BOX (17) | pos=(6486525,2200275) size=(5705475,219075)
+    TEXT: Precast Trench & 1:100 Bed Slope
+--- Shape: Google Shape;291;p23 | type=TEXT_BOX (17) | pos=(6486525,2476500) size=(4838700,342900)
+    TEXT: Reinforced concrete with continuous longitudinal slope towards sumps to eliminate standing water.
+--- Shape: Google Shape;292;p23 | type=TEXT_BOX (17) | pos=(6486525,3371850) size=(5705475,219075)
+    TEXT: Wall-Mounted Cable Racking
+--- Shape: Google Shape;293;p23 | type=TEXT_BOX (17) | pos=(6486525,3648075) size=(4838700,342900)
+    TEXT: Unistrut cantilever brackets along walls; bottom cable level raised ≥ 100 mm off trench floor.
+--- Shape: Google Shape;294;p23 | type=TEXT_BOX (17) | pos=(6486525,4543425) size=(5705475,219075)
+    TEXT: Cover Class & Entry Seals
+--- Shape: Google Shape;295;p23 | type=TEXT_BOX (17) | pos=(6486525,4819650) size=(4838700,342900)
+    TEXT: Heavy RCC/chequered covers for roads; fire-rated gas-tight transits at building entry walls.
+
+########## SLIDE 12 ##########
+Layout: BLANK
+--- Shape: Google Shape;300;p24 | type=AUTO_SHAPE (1) | pos=(6286500,1838325) size=(5143500,1114425)
+--- Shape: Google Shape;301;p24 | type=AUTO_SHAPE (1) | pos=(6286500,3124200) size=(5143500,1114425)
+--- Shape: Google Shape;302;p24 | type=AUTO_SHAPE (1) | pos=(6286500,4410075) size=(5143500,1114425)
+--- Shape: Google Shape;303;p24 | type=PICTURE (13) | pos=(762000,1871662) size=(5143500,3619500)
+    PICTURE shape
+--- Shape: Google Shape;304;p24 | type=PICTURE (13) | pos=(762000,1871662) size=(5143500,3619500)
+    PICTURE shape
+--- Shape: Google Shape;305;p24 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Conduct clash tests at tolerance 0 mm for structural steel and 25 mm for insulated piping.
+--- Shape: Google Shape;306;p24 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: DIGITAL ENGINEERING WORKFLOW
+--- Shape: Google Shape;307;p24 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: BIM / 3D Clash Coordination
+--- Shape: Google Shape;308;p24 | type=TEXT_BOX (17) | pos=(6524625,2076450) size=(5667375,219075)
+    TEXT: Piping Right-of-Way Rules
+--- Shape: Google Shape;309;p24 | type=TEXT_BOX (17) | pos=(6524625,2352675) size=(4762500,361950)
+    TEXT: Always route cable trays ABOVE steam, hydrocarbon, and slurry pipes to eliminate leak dripping hazards.
+--- Shape: Google Shape;310;p24 | type=TEXT_BOX (17) | pos=(6524625,3362325) size=(5667375,219075)
+    TEXT: HVAC Duct Clearances
+--- Shape: Google Shape;311;p24 | type=TEXT_BOX (17) | pos=(6524625,3638550) size=(4762500,361950)
+    TEXT: Maintain 150 mm minimum separation from chilled air ducts to stop surface thermal condensation.
+--- Shape: Google Shape;312;p24 | type=TEXT_BOX (17) | pos=(6524625,4648200) size=(5667375,219075)
+    TEXT: Zero Soft Clashes
+--- Shape: Google Shape;313;p24 | type=TEXT_BOX (17) | pos=(6524625,4924425) size=(4762500,361950)
+    TEXT: Model cable pull envelopes and maintenance zones directly in Revit/Navisworks models.
+
+########## SLIDE 13 ##########
+Layout: BLANK
+--- Shape: Google Shape;318;p25 | type=AUTO_SHAPE (1) | pos=(762000,2738437) size=(2495550,1885950)
+--- Shape: Google Shape;319;p25 | type=AUTO_SHAPE (1) | pos=(3486150,2738437) size=(2495550,1885950)
+--- Shape: Google Shape;320;p25 | type=AUTO_SHAPE (1) | pos=(6210300,2738437) size=(2495550,1885950)
+--- Shape: Google Shape;321;p25 | type=AUTO_SHAPE (1) | pos=(8934450,2738437) size=(2495550,1885950)
+--- Shape: Google Shape;322;p25 | type=PICTURE (13) | pos=(1000125,3052762) size=(333375,266700)
+    PICTURE shape
+--- Shape: Google Shape;323;p25 | type=PICTURE (13) | pos=(3724275,3052762) size=(238125,266700)
+    PICTURE shape
+--- Shape: Google Shape;324;p25 | type=PICTURE (13) | pos=(6448425,3052762) size=(266700,266700)
+    PICTURE shape
+--- Shape: Google Shape;325;p25 | type=PICTURE (13) | pos=(9172575,3052762) size=(266700,266700)
+    PICTURE shape
+--- Shape: Google Shape;326;p25 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Remove paint, anodized coating, and lacquer completely at all bonding contact lugs.
+--- Shape: Google Shape;327;p25 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: SAFETY & INTEGRITY
+--- Shape: Google Shape;328;p25 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Earthing, Bonding & Grounding (NEC 250)
+--- Shape: Google Shape;329;p25 | type=TEXT_BOX (17) | pos=(1000125,3471862) size=(2650331,219075)
+    TEXT: Bonding Jumpers
+--- Shape: Google Shape;330;p25 | type=TEXT_BOX (17) | pos=(1000125,3767137) size=(2114550,542925)
+    TEXT: Flexible copper braid jumpers across every expansion joint, swivel, and reducer.
+--- Shape: Google Shape;331;p25 | type=TEXT_BOX (17) | pos=(3724275,3471862) size=(2650331,219075)
+    TEXT: Main Grid Taps
+--- Shape: Google Shape;332;p25 | type=TEXT_BOX (17) | pos=(3724275,3767137) size=(2114550,542925)
+    TEXT: Connect tray spine to main earthing ring at 20 m intervals using 70 mm² bare copper.
+--- Shape: Google Shape;333;p25 | type=TEXT_BOX (17) | pos=(6448425,3471862) size=(2650331,219075)
+    TEXT: Low Resistance Limit
+--- Shape: Google Shape;334;p25 | type=TEXT_BOX (17) | pos=(6448425,3767137) size=(2114550,542925)
+    TEXT: Measure end-to-end path resistance; must not exceed 0.1 Ω per IEEE standard 525.
+--- Shape: Google Shape;335;p25 | type=TEXT_BOX (17) | pos=(9172575,3471862) size=(2650331,219075)
+    TEXT: Equipment Grounding
+--- Shape: Google Shape;336;p25 | type=TEXT_BOX (17) | pos=(9172575,3767137) size=(2114550,542925)
+    TEXT: Tray cannot substitute for dedicated EGC green wire in branch circuits.
+
+########## SLIDE 14 ##########
+Layout: BLANK
+--- Shape: Google Shape;341;p26 | type=AUTO_SHAPE (1) | pos=(762000,1362075) size=(10668000,4638675)
+--- Shape: Google Shape;342;p26 | type=PICTURE (13) | pos=(1190625,2719387) size=(171450,171450)
+    PICTURE shape
+--- Shape: Google Shape;343;p26 | type=PICTURE (13) | pos=(1190625,3071812) size=(171450,171450)
+    PICTURE shape
+--- Shape: Google Shape;344;p26 | type=PICTURE (13) | pos=(1190625,3424237) size=(171450,171450)
+    PICTURE shape
+--- Shape: Google Shape;345;p26 | type=PICTURE (13) | pos=(1190625,3776662) size=(171450,171450)
+    PICTURE shape
+--- Shape: Google Shape;346;p26 | type=PICTURE (13) | pos=(1190625,4129087) size=(171450,171450)
+    PICTURE shape
+--- Shape: Google Shape;347;p26 | type=PICTURE (13) | pos=(1190625,4481512) size=(171450,171450)
+    PICTURE shape
+--- Shape: Google Shape;348;p26 | type=TEXT_BOX (17) | pos=(762000,6153150) size=(11430000,171450)
+    TEXT: Complete sign-off by Lead Electrical Engineer prior to issuing drawings for construction (IFC).
+--- Shape: Google Shape;349;p26 | type=TEXT_BOX (17) | pos=(762000,533400) size=(11430000,171450)
+    TEXT: QUALITY ASSURANCE
+--- Shape: Google Shape;350;p26 | type=TEXT_BOX (17) | pos=(762000,781050) size=(11430000,428625)
+    TEXT: Design Review & QA/QC Gate Checklist
+--- Shape: Google Shape;351;p26 | type=TEXT_BOX (17) | pos=(1495425,2700337) size=(8403208,200025)
+    TEXT: Fill Verification: Cross-sectional fill verified ≤ 40% (power) and 50% (control) with 20% spare.
+--- Shape: Google Shape;352;p26 | type=TEXT_BOX (17) | pos=(1495425,3052762) size=(7986489,200025)
+    TEXT: Fitting Radius Validation: Tray bend radii ≥ minimum bending radius of the thickest cable.
+--- Shape: Google Shape;353;p26 | type=TEXT_BOX (17) | pos=(1495425,3405187) size=(7572375,200025)
+    TEXT: Segregation Matrix: HV, LV, and instrumentation lines placed on correct vertical tiers.
+--- Shape: Google Shape;354;p26 | type=TEXT_BOX (17) | pos=(1495425,3757612) size=(7941468,200025)
+    TEXT: Support Calculations: Structural spans validated under NEMA VE 1 with 0.25 L splice rule.
+--- Shape: Google Shape;355;p26 | type=TEXT_BOX (17) | pos=(1495425,4110037) size=(9144000,200025)
+    TEXT: Cover & Trench Compliance: Outdoor peaked covers, ampacity derating, and trench drains checked.
+--- Shape: Google Shape;356;p26 | type=TEXT_BOX (17) | pos=(1495425,4462462) size=(7870031,200025)
+    TEXT: Penetration Details: 2-hour UL-listed firestops and gas barrier seals scheduled on MTO.
+
+########## SLIDE 15 ##########
+Layout: BLANK
+--- Shape: Google Shape;361;p27 | type=AUTO_SHAPE (1) | pos=(5791200,4186088) size=(609600,38100)
+--- Shape: Google Shape;362;p27 | type=TEXT_BOX (17) | pos=(4024312,2157412) size=(4143375,200025)
+    TEXT: ENGINEERING TRAINING COMPLETE
+--- Shape: Google Shape;363;p27 | type=TEXT_BOX (17) | pos=(2351782,2509837) size=(7488300,600300)
+    TEXT: Thanks & Discussion
+--- Shape: Google Shape;364;p27 | type=TEXT_BOX (17) | pos=(2047875,3294608) size=(8096250,548580)
+    TEXT: Safe raceway design balances electrical segregation, structural loading, thermal derating, and constructability in field execution.
+--- Shape: Google Shape;365;p27 | type=TEXT_BOX (17) | pos=(2190750,4528988) size=(7810500,171450)
+    TEXT: REFERENCE STANDARDS: NEC 392 • NEMA VE 1 / VE 2 • IEEE 525 • IEC 61537 • OSHA 1910
+
+########## SLIDE 16 ##########
+Layout: BLANK
+--- Shape: Google Shape;370;p28 | type=PICTURE (13) | pos=(571500,1000125) size=(857250,476250)
+    PICTURE shape
+--- Shape: Google Shape;371;p28 | type=TEXT_BOX (17) | pos=(571500,571500) size=(2187773,285750)
+    TEXT: Image Sources
+--- Shape: Google Shape;372;p28 | type=TEXT_BOX (17) | pos=(1666875,1038225) size=(9203531,152400)
+    TEXT: https://www.united-bim.com/wp-content/uploads/2019/04/Clash-detection-for-hotel-project-of-structural-and-MEP.jpg
+--- Shape: Google Shape;373;p28 | type=TEXT_BOX (17) | pos=(1666875,1238250) size=(2762250,200025)
+    TEXT: Source: www.united-bim.com
