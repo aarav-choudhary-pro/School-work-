@@ -109,7 +109,6 @@ No content removed. Only added clarifications in footnotes and improved phrasing
   - Duplicated same file to **AI 1** → https://docs.google.com/presentation/d/1-cawr0vMtw1aiYp-s4nIDBf2EyWGSLO-/edit (per "keep in ai 1 folder inside arena backup")
   - Left root copy (1Pm5...) and Arena Making PPTs For Me copy (1qZghx...) untouched for redundancy
 - Drive now clean: Each AI has isolated folder (AI 1..AI 5), no collision, trash contains only old superseded drafts (not ours)
-
 ---
 ## 2026-10-28 17:07 UTC — User Request: Universal folder "ppts for pa"
 - User noted Drive mixed by all AIs → requested universal clean folder `ppts for pa` with only your ppt (ai_a redesign)
