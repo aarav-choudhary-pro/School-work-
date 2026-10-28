@@ -180,28 +180,33 @@ Folder: **Arena Workspace Backup** (created if missing) →
 
 ### Turn 2026-10-28 (Drive reorganisation — "AI 1" folder)
 - **Nothing of ours was lost.** Audited Drive + trash:
-  - in `AI 1` folder: FINAL.pptx (172 669 B — byte-identical to `pptx/…FINAL.pptx`), FINAL.pdf (628 505 B),
+  - `AI 1` holds FINAL.pptx (172 669 B — byte-identical to `pptx/…FINAL.pptx`), FINAL.pdf (628 505 B),
     contact sheet, corrections.md, LOGBOOK.md.
-  - trash contains only **4 of our own superseded uploads** (the placeholder mistake at 16:54:15 plus
-    3 replaced copies) — recoverable, nothing live.
-  - the other 6 trashed items belong to **another model's** folder `Cable Tray Training PPT (Arena Redesign)`
-    (RENDER-CHECK v1–v4, a Preview Slides, an earlier `…— Redesigned.pptx`). Not ours, not touched;
-    that folder still holds live copies of its `…Redesigned.pptx`, Preview, LOGBOOK and ORIGINAL.
-- **New Drive layout for this deck** (per user: one folder per model, `AI 1` … `AI 5`):
+  - trash contains only **superseded copies of our own uploads** (the 16:54:15 placeholder-mistake file and
+    replaced versions) — recoverable, nothing live.
+  - 6 further trashed items belong to **another model's** folder `Cable Tray Training PPT (Arena Redesign)`
+    (RENDER-CHECK v1–v4, a Preview Slides, an earlier `…Redesigned.pptx`). Not ours, not touched; that
+    folder still holds live copies of its `…Redesigned.pptx`, Preview, LOGBOOK and ORIGINAL.
+- **New Drive layout for this deck** (user: one folder per model, `AI 1` … `AI 5`):
   ```
   Arena Workspace Backup/
-  ├── AI 1/                                  <-- THE DELIVERABLE
-  │   ├── Cable Tray Routing Design Training - FINAL.pptx     (25 slides, editable)
-  │   ├── Cable Tray Routing Design Training - FINAL.pdf      (vector, exact look)
-  │   ├── 01 - contact sheet (all 25 slides).png
-  │   ├── 02 - what I corrected and why (sources).md
-  │   └── 03 - LOGBOOK.md
-  └── AI 1 — extras (original ppt, old drafts, quiz lab)/      <-- reference only
-      ├── ORIGINAL - Cable Tray Routing Design Training.pptx
-      ├── Quiz Lab (earlier chat work) - source.zip
-      └── superseded drafts (old pipeline)/
+  └── AI 1/                                                     <-- THE DELIVERABLE
+      ├── Cable Tray Routing Design Training - FINAL.pptx        (25 slides, editable)
+      ├── Cable Tray Routing Design Training - FINAL.pdf         (vector, exact look)
+      ├── 01 - contact sheet (all 25 slides).png
+      ├── 02 - what I corrected and why (sources).md
+      ├── 03 - LOGBOOK.md
+      └── extras - original ppt, old drafts, quiz lab/           (reference only)
+          ├── ORIGINAL - Cable Tray Routing Design Training.pptx
+          ├── Quiz Lab (earlier chat work) - source.zip
+          └── superseded drafts (old pipeline)/
   ```
 - Folder IDs: `AI 1` = `1C6P9fsy_BYELIb8s6QICEG69BjMj_jN_`,
-  extras = `1dGxWIp3xIzQHf0j8j2dALmHNUrzG3dTu`, parent `Arena Workspace Backup` = `1MBuYnY63rG3G0ZvAT9BHCrQHTs8eSB02`.
+  extras = `1dGxWIp3xIzQHf0j8j2dALmHNUrzG3dTu` (moved *under* AI 1 so the backup root carries a single
+  folder of mine), parent `Arena Workspace Backup` = `1MBuYnY63rG3G0ZvAT9BHCrQHTs8eSB02`.
+- File IDs in AI 1: pptx `16olYm_cPS_r2s7ohIOonENm_sEm9gOHH`, pdf `1V-0HmRMPWeQ5QE_UgKV80kvRqsVJe1tW`,
+  contact sheet `1I9BnqHRmyU2e-i7JcIcsktmHCJieyZJc`, corrections `1oLhLsAB70GbSPRrrM9vRiFqNJFZYeUow`,
+  LOGBOOK `1E2SUkRMegCVHngGTWdKHZfkqLIWpgmCK`.
+- All moves done with `update_file` add/remove parents — **no re-upload**, so IDs and links stay stable.
 - Housekeeping rule from now on: **everything this chat produces goes in `AI 1`**, nothing loose at the
-  backup root. The old folder was renamed, not deleted, so the father's original attachment is never lost.
+  backup root. Extras were kept, never deleted, so the father's original attachment is always recoverable.
