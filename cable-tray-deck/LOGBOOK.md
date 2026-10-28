@@ -164,3 +164,16 @@ Folder: **Arena Workspace Backup** (created if missing) →
   - the original attachment is kept as `ORIGINAL - …pptx`; the dead Chromium-pipeline PNGs were moved to
     `superseded drafts (old pipeline)`.
 - Status: **delivered, awaiting the father's review.** Next edits, if any, belong in `content/content.py`.
+
+### Turn 2026-10-28 (final polish + Drive re-sync)
+- Chart pass: both charts now carry a real axis label (`NEC 392.22 FILL LIMIT (%)`,
+  `DERATING FACTOR (× TABULATED CURRENT)`), the derating chart runs 0.00–1.25 in 0.25 steps with
+  two decimals so the bars no longer sit flat against the top, and the QA sign-off bar lost its
+  awkward cropped logo (red tick + `QA GATE · IFC` label instead).
+- Landing-page detail: the divider lead line now hangs off a measured baseline, so it can never
+  overlap the module number again.
+- Re-ran the full pipeline: lint 0, PPTX read-back 0 fails / 0 warnings, replay regenerated.
+- Drive re-synced (pptx 172 669 B, pdf 628 505 B, contact sheet). Note for the next agent:
+  **never** call `update_file_content` on the PPTX with inline text — it overwrites the binary.
+  Upload the built file with `upload_file` and trash the old copy instead.
+- Commits: `ce26bc0` (build) → `fc8402e` (delivery log) → `dbecf3a` (polish).
