@@ -1,0 +1,8 @@
+# rendered previews are reproducible (scripts/restore.sh) and large
+build/render/
+build/pptx-replay/
+build/compare/
+build/*.png
+build/*.pdf
+__pycache__/
+*.pyc

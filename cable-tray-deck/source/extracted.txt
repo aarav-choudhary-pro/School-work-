@@ -1,0 +1,193 @@
+
+########## SLIDE 1 ##########
+[Google Shape;85;p13] INDUSTRIAL ELECTRICAL & INSTRUMENTATION DESIGN
+[Google Shape;86;p13] Cable Tray Routing & Raceway Engineering
+[Google Shape;87;p13] Design standards, fill factors, structural supports, clearances, covers, and underground trenches
+[Google Shape;88;p13] NEC 392 • NEMA VE 1 / VE 2 • IEEE 525 • IEC 61537
+
+########## SLIDE 2 ##########
+[Google Shape;101;p14] Follow industry codes to avoid construction rework and thermal hazards.
+[Google Shape;102;p14] TRAINING SCOPE
+[Google Shape;103;p14] Core Design Modules
+[Google Shape;104;p14] Hardware & Selection
+[Google Shape;105;p14] Ladder, solid bottom, channel, and wire mesh configurations.
+[Google Shape;106;p14] NEC Fill Capacity
+[Google Shape;107;p14] Cross-section limits, derating, and future reserve space.
+[Google Shape;108;p14] Segregation Rules
+[Google Shape;109;p14] EMI separation between HV, LV, and instrument signals.
+[Google Shape;110;p14] NEMA Support Spans
+[Google Shape;111;p14] Structural load classes and fitting support rules.
+
+########## SLIDE 3 ##########
+[Google Shape;120;p15] Specify hot-dip galvanized steel, marine-grade 6063 aluminum, or FRP for corrosive environments.
+[Google Shape;121;p15] COMPONENT SELECTION
+[Google Shape;122;p15] Tray Geometry & Industrial Service
+[Google Shape;123;p15] Ladder Tray
+[Google Shape;124;p15] 9-inch or 12-inch rung spacing.
+[Google Shape;125;p15] Application: Heavy power cables with maximum ventilation.
+[Google Shape;126;p15] Solid Bottom / Trough
+[Google Shape;127;p15] Continuous metallic base protection.
+[Google Shape;128;p15] Application: Sensitive instrumentation and EMI shield lines.
+[Google Shape;129;p15] Wire Mesh (Basket)
+[Google Shape;130;p15] Field-adaptable lightweight grid.
+[Google Shape;131;p15] Application: Cat6/Fiber telecom, data center overhead drops.
+[Google Shape;132;p15] Channel Tray
+[Google Shape;133;p15] 3 to 6-inch narrow single-run track.
+[Google Shape;134;p15] Application: Single equipment branch drops from main rack.
+
+########## SLIDE 4 ##########
+[Google Shape;142;p16] Formula: Tray Width ≥ [∑(Cable OD)² × 1.25] / Usable Depth to guarantee single-layer spacing when required.
+[Google Shape;143;p16] NEC 392 COMPLIANCE
+[Google Shape;144;p16] Tray Fill & Cross-Section Calculations
+[Google Shape;145;p16] 40%
+[Google Shape;146;p16] Power Cable Fill Limit
+[Google Shape;147;p16] Maximum allowable cross-sectional fill for multi-conductor power under NEC 392.
+[Google Shape;148;p16] 50%
+[Google Shape;149;p16] Control & Signal Limit
+[Google Shape;150;p16] Maximum usable area for non-heat generating control and instrumentation lines.
+[Google Shape;151;p16] 20%
+[Google Shape;152;p16] Future Reserve Margin
+[Google Shape;153;p16] Mandatory spare width reserved for upcoming plant expansions and revamps.
+
+########## SLIDE 5 ##########
+[Google Shape;162;p17] Incorrect single-core bundling creates hazardous circulating currents and severe tray overheating.
+[Google Shape;163;p17] INSTALLATION GEOMETRY
+[Google Shape;164;p17] Laying Arrangement: 1-Core vs Multi-Core
+[Google Shape;165;p17] Single-Core Cables
+[Google Shape;166;p17] • Trefoil Formation: Route in grouped trefoils to balance induced magnetic fields.
+[Google Shape;167;p17] • Single-Layer Rule: Strictly no multi-layer stacking; space groups by 2 × Cable Diameter.
+[Google Shape;168;p17] • Short-Circuit Cleating: Rated cleats every 1.5 m to withstand dynamic electromagnetic burst.
+[Google Shape;169;p17] • Non-Magnetic Clamps: Stainless steel or aluminum hardware to stop eddy heating.
+[Google Shape;170;p17] Multi-Core Cables
+[Google Shape;171;p17] • Flat Side-by-Side: Low-voltage power placed touching or spaced by 1 × Cable Diameter.
+[Google Shape;172;p17] • Thermal Stacking: Avoid multi-layer stacking unless ampacity derating is applied.
+[Google Shape;173;p17] • Direct Tie Fastening: UV-resistant heavy nylon or coated steel ties on rungs.
+[Google Shape;174;p17] • Vertical Rung Anchoring: Support multi-core every 450 mm on vertical risers.
+
+########## SLIDE 6 ##########
+[TABLE]
+  | Tray Level / Class | Voltage Level | Vertical Separation | Physical Divider Rule
+  | Top Tier (Tier 1) | High Voltage (> 1 kV to 33 kV) | Top position | Separate tray; no shared services
+  | Tier 2 | Low Voltage Power (< 1 kV) | 300 mm from HV | Solid metallic barrier if in same tray
+  | Tier 3 | Control & Interlocking (110V/230V) | 250 mm from LV | Perforated barrier minimum
+  | Bottom Tier (Tier 4) | Analog & Fieldbus (< 50V / 4-20mA) | 450 mm from Power | Dedicated solid bottom tray or conduit
+[Google Shape;181;p18] Maintain minimum 90° right-angle crossovers when signal trays must intersect power routes.
+[Google Shape;182;p18] ELECTROMAGNETIC COMPATIBILITY
+[Google Shape;183;p18] Voltage Segregation & Separation Distances
+
+########## SLIDE 7 ##########
+[Google Shape;193;p19] Thermal expansion guide: Install expansion splice plates every 30 m on straight outdoor aluminum runs.
+[Google Shape;194;p19] STRUCTURAL ENGINEERING
+[Google Shape;195;p19] NEMA VE 1 / VE 2 Support Standards
+[Google Shape;196;p19] NEMA Load Class Ratings
+[Google Shape;197;p19] Class 12C (100 lbs/ft @ 12ft) or 20C (100 lbs/ft @ 20ft). Factor wind, ice, and 200 lb concentrated worker load.
+[Google Shape;198;p19] Splice Joint Location (0.25 L Rule)
+[Google Shape;199;p19] Locate splice connectors at 1/4 span distance from support beam. Never place splices at mid-span.
+[Google Shape;200;p19] NEMA VE 2 Fitting Support
+[Google Shape;201;p19] Support within 2 feet (600 mm) of each horizontal bend, tee, cross, or vertical reducer fitting.
+
+########## SLIDE 8 ##########
+[Google Shape;211;p20] Comply with OSHA 1910 headroom and maintain 2.1 m clear walkway below bottom rack.
+[Google Shape;212;p20] INSTALLABILITY & ERGONOMICS
+[Google Shape;213;p20] Substation & Switchgear Room Clearances
+[Google Shape;214;p20] 300 mm (12 in) Top Headroom
+[Google Shape;215;p20] Required overhead clearance above tray side rail for cable pulling and roller guides.
+[Google Shape;216;p20] 600 mm (24 in) Side Access
+[Google Shape;217;p20] Clear pathway between tray edge and building wall or structural columns for personnel access.
+[Google Shape;218;p20] Switchgear Dropping Corridor
+[Google Shape;219;p20] Align overhead trays directly with panel top-entry plates to avoid sharp s-bends.
+
+########## SLIDE 9 ##########
+[Google Shape;228;p21] Specify tray fitting radius matching the largest cable diameter: $R_{\text{fitting}} \ge \text{MBR}_{\text{max}}$.
+[Google Shape;229;p21] PULLING STRESS & FITTINGS
+[Google Shape;230;p21] Cable Minimum Bending Radius (MBR)
+[Google Shape;231;p21] CLASS 1
+[Google Shape;232;p21] CLASS 2
+[Google Shape;233;p21] CLASS 3
+[Google Shape;234;p21] CLASS 4
+[Google Shape;235;p21] Control / Signal
+[Google Shape;236;p21] 6 × OD
+[Google Shape;237;p21] Unarmored instrument pairs; select 300 mm fitting radius.
+[Google Shape;238;p21] LV Power
+[Google Shape;239;p21] 8–12 × OD
+[Google Shape;240;p21] Armored & unarmored LV; select 450 mm fitting radius.
+[Google Shape;241;p21] MV / HV Shielded
+[Google Shape;242;p21] 12–15 × OD
+[Google Shape;243;p21] Medium voltage tape shield; specify 600–900 mm fitting radius.
+[Google Shape;244;p21] Optical Fiber
+[Google Shape;245;p21] 20 × OD
+[Google Shape;246;p21] Dynamic pulling limit to prevent internal glass micro-fractures.
+
+########## SLIDE 10 ##########
+[Google Shape;263;p22] Specify heavy-duty stainless steel cover hold-down clamps rated for local design wind velocities.
+[Google Shape;264;p22] ENVIRONMENTAL & THERMAL DESIGN
+[Google Shape;265;p22] Cable Tray Cover Philosophy
+[Google Shape;266;p22] Peaked / Flanged Covers
+[Google Shape;267;p22] Pitched profile sheds rainwater, snow, and chemical process deposits outdoors.
+[Google Shape;268;p22] Use: Outdoor racks & pipe bridges
+[Google Shape;269;p22] Mechanical Protection
+[Google Shape;270;p22] Solid covers mandatory within 1.8 m of platforms, stairs, and crane lift corridors.
+[Google Shape;271;p22] Use: Falling tool & slag zones
+[Google Shape;272;p22] Ampacity Derating
+[Google Shape;273;p22] Solid unventilated covers trap heat, penalizing cable ampacity by 10% to 15%.
+[Google Shape;274;p22] Derating: Apply 0.85–0.90 factor
+[Google Shape;275;p22] Raised Standoff Spacers
+[Google Shape;276;p22] 25–50 mm raised cover brackets restore convective airflow while blocking sunlight.
+[Google Shape;277;p22] Fix: Avoid thermal choke points
+
+########## SLIDE 11 ##########
+[Google Shape;287;p23] Segregate MV power on one side wall and control/instrumentation on the opposing trench wall.
+[Google Shape;288;p23] CIVIL & SUBSTATION INTERFACE
+[Google Shape;289;p23] Underground Cable Trench Standards
+[Google Shape;290;p23] Precast Trench & 1:100 Bed Slope
+[Google Shape;291;p23] Reinforced concrete with continuous longitudinal slope towards sumps to eliminate standing water.
+[Google Shape;292;p23] Wall-Mounted Cable Racking
+[Google Shape;293;p23] Unistrut cantilever brackets along walls; bottom cable level raised ≥ 100 mm off trench floor.
+[Google Shape;294;p23] Cover Class & Entry Seals
+[Google Shape;295;p23] Heavy RCC/chequered covers for roads; fire-rated gas-tight transits at building entry walls.
+
+########## SLIDE 12 ##########
+[Google Shape;305;p24] Conduct clash tests at tolerance 0 mm for structural steel and 25 mm for insulated piping.
+[Google Shape;306;p24] DIGITAL ENGINEERING WORKFLOW
+[Google Shape;307;p24] BIM / 3D Clash Coordination
+[Google Shape;308;p24] Piping Right-of-Way Rules
+[Google Shape;309;p24] Always route cable trays ABOVE steam, hydrocarbon, and slurry pipes to eliminate leak dripping hazards.
+[Google Shape;310;p24] HVAC Duct Clearances
+[Google Shape;311;p24] Maintain 150 mm minimum separation from chilled air ducts to stop surface thermal condensation.
+[Google Shape;312;p24] Zero Soft Clashes
+[Google Shape;313;p24] Model cable pull envelopes and maintenance zones directly in Revit/Navisworks models.
+
+########## SLIDE 13 ##########
+[Google Shape;326;p25] Remove paint, anodized coating, and lacquer completely at all bonding contact lugs.
+[Google Shape;327;p25] SAFETY & INTEGRITY
+[Google Shape;328;p25] Earthing, Bonding & Grounding (NEC 250)
+[Google Shape;329;p25] Bonding Jumpers
+[Google Shape;330;p25] Flexible copper braid jumpers across every expansion joint, swivel, and reducer.
+[Google Shape;331;p25] Main Grid Taps
+[Google Shape;332;p25] Connect tray spine to main earthing ring at 20 m intervals using 70 mm² bare copper.
+[Google Shape;333;p25] Low Resistance Limit
+[Google Shape;334;p25] Measure end-to-end path resistance; must not exceed 0.1 Ω per IEEE standard 525.
+[Google Shape;335;p25] Equipment Grounding
+[Google Shape;336;p25] Tray cannot substitute for dedicated EGC green wire in branch circuits.
+
+########## SLIDE 14 ##########
+[Google Shape;348;p26] Complete sign-off by Lead Electrical Engineer prior to issuing drawings for construction (IFC).
+[Google Shape;349;p26] QUALITY ASSURANCE
+[Google Shape;350;p26] Design Review & QA/QC Gate Checklist
+[Google Shape;351;p26] Fill Verification: Cross-sectional fill verified ≤ 40% (power) and 50% (control) with 20% spare.
+[Google Shape;352;p26] Fitting Radius Validation: Tray bend radii ≥ minimum bending radius of the thickest cable.
+[Google Shape;353;p26] Segregation Matrix: HV, LV, and instrumentation lines placed on correct vertical tiers.
+[Google Shape;354;p26] Support Calculations: Structural spans validated under NEMA VE 1 with 0.25 L splice rule.
+[Google Shape;355;p26] Cover & Trench Compliance: Outdoor peaked covers, ampacity derating, and trench drains checked.
+[Google Shape;356;p26] Penetration Details: 2-hour UL-listed firestops and gas barrier seals scheduled on MTO.
+
+########## SLIDE 15 ##########
+[Google Shape;362;p27] ENGINEERING TRAINING COMPLETE
+[Google Shape;363;p27] Thanks & Discussion
+[Google Shape;364;p27] Safe raceway design balances electrical segregation, structural loading, thermal derating, and constructability in field execution.
+[Google Shape;365;p27] REFERENCE STANDARDS: NEC 392 • NEMA VE 1 / VE 2 • IEEE 525 • IEC 61537 • OSHA 1910
+
+########## SLIDE 16 ##########
+[Google Shape;371;p28] Image Sources
+[Google Shape;372;p28] https://www.united-bim.com/wp-content/uploads/2019/04/Clash-detection-for-hotel-project-of-structural-and-MEP.jpg
+[Google Shape;373;p28] Source: www.united-bim.com
