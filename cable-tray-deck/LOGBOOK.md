@@ -177,3 +177,31 @@ Folder: **Arena Workspace Backup** (created if missing) →
   **never** call `update_file_content` on the PPTX with inline text — it overwrites the binary.
   Upload the built file with `upload_file` and trash the old copy instead.
 - Commits: `ce26bc0` (build) → `fc8402e` (delivery log) → `dbecf3a` (polish).
+
+### Turn 2026-10-28 (Drive reorganisation — "AI 1" folder)
+- **Nothing of ours was lost.** Audited Drive + trash:
+  - in `AI 1` folder: FINAL.pptx (172 669 B — byte-identical to `pptx/…FINAL.pptx`), FINAL.pdf (628 505 B),
+    contact sheet, corrections.md, LOGBOOK.md.
+  - trash contains only **4 of our own superseded uploads** (the placeholder mistake at 16:54:15 plus
+    3 replaced copies) — recoverable, nothing live.
+  - the other 6 trashed items belong to **another model's** folder `Cable Tray Training PPT (Arena Redesign)`
+    (RENDER-CHECK v1–v4, a Preview Slides, an earlier `…— Redesigned.pptx`). Not ours, not touched;
+    that folder still holds live copies of its `…Redesigned.pptx`, Preview, LOGBOOK and ORIGINAL.
+- **New Drive layout for this deck** (per user: one folder per model, `AI 1` … `AI 5`):
+  ```
+  Arena Workspace Backup/
+  ├── AI 1/                                  <-- THE DELIVERABLE
+  │   ├── Cable Tray Routing Design Training - FINAL.pptx     (25 slides, editable)
+  │   ├── Cable Tray Routing Design Training - FINAL.pdf      (vector, exact look)
+  │   ├── 01 - contact sheet (all 25 slides).png
+  │   ├── 02 - what I corrected and why (sources).md
+  │   └── 03 - LOGBOOK.md
+  └── AI 1 — extras (original ppt, old drafts, quiz lab)/      <-- reference only
+      ├── ORIGINAL - Cable Tray Routing Design Training.pptx
+      ├── Quiz Lab (earlier chat work) - source.zip
+      └── superseded drafts (old pipeline)/
+  ```
+- Folder IDs: `AI 1` = `1C6P9fsy_BYELIb8s6QICEG69BjMj_jN_`,
+  extras = `1dGxWIp3xIzQHf0j8j2dALmHNUrzG3dTu`, parent `Arena Workspace Backup` = `1MBuYnY63rG3G0ZvAT9BHCrQHTs8eSB02`.
+- Housekeeping rule from now on: **everything this chat produces goes in `AI 1`**, nothing loose at the
+  backup root. The old folder was renamed, not deleted, so the father's original attachment is never lost.
