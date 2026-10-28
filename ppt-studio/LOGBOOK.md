@@ -51,3 +51,13 @@ Speaker notes added per slide (bonus).
   * Original backup id 1ZX75zngkf_axweiaBo2DtzwbM4n4zVGa
 - Render-check scratch files trashed. Corrections applied to content: slide-9 LaTeX artifact → plain text rule; IEEE 525 → "IEEE Std 525"; unit/typography polish only — substance unchanged.
 - Remaining optional: upload LOGBOOK.md copy to Drive folder each turn if user continues iterating.
+
+## Turn update — 2026-10-28 (FINALE round)
+- v3/v4 upgrades: soft card shadows (outerShdw XML), DONUT+PIE gauge charts on slide 4 (angles via avLst gd, start 270°),
+  quarter-arc bend-radius glyphs slide 9 (ARC preset, sizes 0.3/0.4/0.5/0.6 — bigger collided with text, fixed in v4),
+  cover mini-diagrams slide 10 (ISOSCELES_TRIANGLE spelling!), blueprint tray cross-section hero on title,
+  fade thruBlk transitions on slides 1 & 15.
+- FINAL FILES in Drive folder 1u4yDGWUkZSDHDT2VptdaXmrgboc3Zytv:
+  * FINAL pptx id 1p1z-UOWQSVAkqMnJe6jh5qTWJpYz3fGs
+  * Slides preview id 1orZMxJoeNxZ-LkxB50T4-NkZ5XQVb5NC3EbUFn_wqCM
+  * old finals + all render-checks trashed. TASK COMPLETE.

@@ -71,6 +71,39 @@ def line(s, x1, y1, x2, y2, color=BORDER, lw=1.0, dash=None):
 def oval(s, x, y, w, h, fill=None, line_c=None, lw=1.0):
     return rect(s, x, y, w, h, fill=fill, line=line_c, lw=lw, shape=MSO_SHAPE.OVAL)
 
+from lxml import etree
+_SHDW = ('<a:effectLst xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">'
+         '<a:outerShdw blurRad="140000" dist="50000" dir="5400000" rotWithShape="0">'
+         '<a:srgbClr val="16314E"><a:alpha val="15000"/></a:srgbClr></a:outerShdw></a:effectLst>')
+
+def shadow(sp):
+    spPr = sp._element.spPr
+    for e in spPr.findall(qn('a:effectLst')):
+        spPr.remove(e)
+    spPr.append(etree.fromstring(_SHDW))
+
+def set_angles(sp, start_deg, end_deg):
+    """set adj1/adj2 angle guides (pie / arc presets); degrees clockwise from 3 o'clock"""
+    prst = sp._element.spPr.find(qn('a:prstGeom'))
+    av = prst.find(qn('a:avLst'))
+    if av is None:
+        av = prst.makeelement(qn('a:avLst'), {}); prst.append(av)
+    for g in list(av): av.remove(g)
+    for name, deg in (('adj1', start_deg), ('adj2', end_deg)):
+        gd = av.makeelement(qn('a:gd'), {'name': name, 'fmla': f'val {int(deg*60000)}'})
+        av.append(gd)
+
+def donut_chart(s, x, y, d, frac, ac, label):
+    """donut gauge with % label in center"""
+    ring = rect(s, x, y, d, d, fill=RGBColor(0xEA,0xF0,0xF6), shape=MSO_SHAPE.DONUT)
+    try: ring.adjustments[0] = 0.16
+    except Exception: pass
+    pie = rect(s, x, y, d, d, fill=ac, shape=MSO_SHAPE.PIE)
+    set_angles(pie, 270, (270 + frac*360) % 360)
+    hole = d*0.68
+    oval(s, x+(d-hole)/2, y+(d-hole)/2, hole, hole, fill=CARD)
+    text(s, x, y-0.02, d, d, label, size=21, color=ac, bold=True, align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+
 def _set_spc(run, spc):
     run._r.get_or_add_rPr().set('spc', str(spc))
 
@@ -130,6 +163,7 @@ def numcircle(s, x, y, n, d=0.4, fill=NAVY, tcolor=None):
 
 def card(s, x, y, w, h, accent=BLUE, top_strip=True):
     c = rect(s, x, y, w, h, fill=CARD, line=BORDER, lw=1.1, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.045)
+    shadow(c)
     if top_strip:
         rect(s, x+0.14, y, w-0.28, 0.05, fill=accent)
     return c
@@ -154,8 +188,27 @@ def trefoil(s, cx, cy, r, color=CYAN, line_c=None, lw=1.5):
 s = slide(); PAGENO[0] += 1
 rect(s, 0, 0, W, H, fill=NAVY)
 rect(s, 0, 0, W, H*0.5, fill=NAVY)  # base
-# decorative ghost trefoil + ring, right side
-trefoil(s, 11.75, 1.95, 0.52, color=None, line_c=RGBColor(0x2A,0x4A,0x6B), lw=1.6)
+# decorative blueprint hero: cable tray cross-section, right side
+GHOST  = RGBColor(0x2E, 0x50, 0x73)
+GHOST2 = RGBColor(0x24, 0x44, 0x66)
+hx, hy = 9.0, 1.45          # tray box top-left
+hw, hh = 3.3, 2.1
+rect(s, hx, hy, 0.16, hh, fill=None, line=GHOST, lw=1.8)               # left wall
+rect(s, hx+hw-0.16, hy, 0.16, hh, fill=None, line=GHOST, lw=1.8)       # right wall
+rect(s, hx, hy+hh-0.18, hw, 0.18, fill=None, line=GHOST, lw=1.8)       # bottom
+# cable groups inside: trefoil (amber accent) + trefoil ghost + flat multicore ghost
+trefoil(s, hx+0.78, hy+hh-0.78, 0.17, color=None, line_c=AMBER, lw=2.0)
+trefoil(s, hx+1.72, hy+hh-0.78, 0.17, color=None, line_c=GHOST, lw=1.8)
+for k in range(3):
+    oval(s, hx+2.42+k*0.26, hy+hh-0.52, 0.24, 0.24, fill=None, line_c=GHOST, lw=1.8)
+# dimension line above tray
+line(s, hx, hy-0.32, hx+hw, hy-0.32, color=GHOST2, lw=1.2)
+line(s, hx, hy-0.42, hx, hy-0.22, color=GHOST2, lw=1.2)
+line(s, hx+hw, hy-0.42, hx+hw, hy-0.22, color=GHOST2, lw=1.2)
+text(s, hx, hy-0.68, hw, 0.3, "W", size=11, color=GHOST, bold=True, align=PP_ALIGN.CENTER)
+# centerline below
+line(s, hx-0.3, hy+hh+0.35, hx+hw+0.3, hy+hh+0.35, color=GHOST2, lw=1.0, dash='dash')
+# faint ring, lower right
 oval(s, 10.45, 5.0, 2.65, 2.65, fill=None, line_c=RGBColor(0x1E,0x3D,0x5E), lw=1.2)
 rect(s, 0, 7.28, W, 0.22, fill=AMBER)
 line(s, M, 1.52, M+1.5, 1.52, color=AMBER, lw=3)
@@ -263,12 +316,12 @@ gap = 0.3; cw_ = (CW - 2*gap)/3; y0 = top + 0.3; ch_ = 4.0
 for i, (big, t, d, ac, frac) in enumerate(stats):
     x = M + i*(cw_+gap)
     card(s, x, y0, cw_, ch_, accent=ac)
-    text(s, x+0.32, y0+0.28, cw_-0.64, 1.0, big, size=50, color=ac, bold=True)
-    bar_y = y0+1.42; bw = cw_-0.64
-    rect(s, x+0.32, bar_y, bw, 0.14, fill=RGBColor(0xEA,0xF0,0xF6), shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.5)
-    rect(s, x+0.32, bar_y, bw*frac, 0.14, fill=ac, shape=MSO_SHAPE.ROUNDED_RECTANGLE, radius=0.5)
-    text(s, x+0.32, bar_y+0.34, cw_-0.64, 0.5, t, size=16, color=NAVY, bold=True)
-    text(s, x+0.32, bar_y+0.82, cw_-0.64, 1.4, d, size=12.5, color=MUTED, leading=1.2)
+    donut_chart(s, x+0.32, y0+0.34, 1.55, frac, ac, big)
+    text(s, x+2.1, y0+0.34, cw_-2.35, 1.6,
+         [[("of tray", {'size': 12, 'color': MUTED})], [("cross-section", {'size': 12, 'color': MUTED})]],
+         anchor=MSO_ANCHOR.MIDDLE, leading=1.15)
+    text(s, x+0.32, y0+2.12, cw_-0.64, 0.5, t, size=16, color=NAVY, bold=True)
+    text(s, x+0.32, y0+2.6, cw_-0.64, 1.3, d, size=12.5, color=MUTED, leading=1.2)
 s.notes_slide.notes_text_frame.text = ("NEC 392.22 working limits: 40% fill for multiconductor power, 50% for control/signal, "
     "and hold 20% spare capacity for future expansion. The width formula is an area method with a 1.25 packing margin.")
 
@@ -446,15 +499,21 @@ mbr = [
     ("CLASS 4", "Optical Fiber", "20 × OD", "Dynamic pulling limit to prevent internal glass micro-fractures.", AMBER),
 ]
 gap = 0.26; cw_ = (CW-3*gap)/4; y0 = top + 0.3; ch_ = 4.05
+arc_r = [0.3, 0.4, 0.5, 0.6]
 for i, (cls, t, big, d, ac) in enumerate(mbr):
     x = M + i*(cw_+gap)
     card(s, x, y0, cw_, ch_, accent=ac)
     chip(s, x+0.28, y0+0.3, 1.15, cls, dark=False, h=0.36, size=10)
-    # bend radius glyph: quarter arc suggestion via BLOCK_ARC-ish elbow
-    text(s, x+0.28, y0+0.82, cw_-0.56, 0.95, big, size=29, color=ac, bold=True)
-    text(s, x+0.28, y0+1.78, cw_-0.56, 0.45, t, size=15, color=NAVY, bold=True)
-    line(s, x+0.28, y0+2.32, x+cw_-0.28, y0+2.32, color=BORDER, lw=1)
-    text(s, x+0.28, y0+2.46, cw_-0.56, 1.4, d, size=11.8, color=MUTED, leading=1.18)
+    # bend-radius glyph: quarter arc, radius grows with class
+    rr = arc_r[i]
+    arc = rect(s, x+cw_-rr-0.26, y0+0.26, rr, rr, fill=None, shape=MSO_SHAPE.ARC)
+    set_angles(arc, 180, 270)
+    arc.line.color.rgb = ac; arc.line.width = Pt(3.0)
+    oval(s, x+cw_-rr-0.26-0.05, y0+0.26+rr-0.05, 0.11, 0.11, fill=ac)
+    text(s, x+0.28, y0+1.02, cw_-0.56, 0.95, big, size=29, color=ac, bold=True)
+    text(s, x+0.28, y0+1.94, cw_-0.56, 0.45, t, size=15, color=NAVY, bold=True)
+    line(s, x+0.28, y0+2.44, x+cw_-0.28, y0+2.44, color=BORDER, lw=1)
+    text(s, x+0.28, y0+2.58, cw_-0.56, 1.3, d, size=11.8, color=MUTED, leading=1.18)
 s.notes_slide.notes_text_frame.text = ("Minimum bending radius scales with cable construction — from 6×OD for unarmored "
     "instrument pairs up to 20×OD for optical fiber during pulling. Tray fitting radius must meet or exceed the largest cable's MBR.")
 
@@ -470,11 +529,29 @@ covers = [
     ("Ampacity Derating", "Solid unventilated covers trap heat, penalizing cable ampacity by 10% to 15%.", "DERATING", "Apply 0.85 – 0.90 factor", AMBER),
     ("Raised Standoff Spacers", "25–50 mm raised cover brackets restore convective airflow while blocking sunlight.", "FIX", "Avoids thermal choke points", CYAN),
 ]
+def cover_glyph(s, i, x, y, ac):
+    """mini diagram: tray line + cover treatment"""
+    tw = 1.0
+    if i == 0:    # peaked roof
+        rect(s, x, y+0.34, tw, 0.1, fill=RGBColor(0xC9,0xD6,0xE2))
+        tri = rect(s, x-0.06, y+0.08, tw+0.12, 0.24, fill=ac, shape=MSO_SHAPE.ISOSCELES_TRIANGLE)
+    elif i == 1:  # solid slab
+        rect(s, x, y+0.34, tw, 0.1, fill=RGBColor(0xC9,0xD6,0xE2))
+        rect(s, x-0.06, y+0.16, tw+0.12, 0.1, fill=ac)
+    elif i == 2:  # derating: down arrow beside tray
+        rect(s, x, y+0.34, tw, 0.1, fill=RGBColor(0xC9,0xD6,0xE2))
+        rect(s, x+tw/2-0.11, y, 0.22, 0.3, fill=ac, shape=MSO_SHAPE.DOWN_ARROW)
+    else:         # raised standoff spacers
+        rect(s, x, y+0.34, tw, 0.1, fill=RGBColor(0xC9,0xD6,0xE2))
+        rect(s, x-0.06, y+0.04, tw+0.12, 0.1, fill=ac)
+        rect(s, x+0.12, y+0.14, 0.07, 0.2, fill=ac)
+        rect(s, x+tw-0.19, y+0.14, 0.07, 0.2, fill=ac)
+
 gap = 0.26; cw_ = (CW-3*gap)/4; y0 = top + 0.3; ch_ = 4.05
 for i, (t, d, tag, tagv, ac) in enumerate(covers):
     x = M + i*(cw_+gap)
     card(s, x, y0, cw_, ch_, accent=ac)
-    numcircle(s, x+0.28, y0+0.3, f"{i+1:02d}", d=0.46, fill=ac)
+    cover_glyph(s, i, x+0.28, y0+0.3, ac)
     text(s, x+0.28, y0+0.95, cw_-0.56, 0.78, t, size=15, color=NAVY, bold=True, leading=1.03)
     text(s, x+0.28, y0+1.75, cw_-0.56, 1.35, d, size=12, color=MUTED, leading=1.18)
     line(s, x+0.28, y0+3.12, x+cw_-0.28, y0+3.12, color=BORDER, lw=1)
@@ -639,11 +716,14 @@ text(s, M, top+0.85, CW, 0.4,
 text(s, M, top+1.3, CW, 0.4, "Source: www.united-bim.com", size=12, color=MUTED)
 text(s, M, top+2.1, CW, 0.4, "All diagrams are original vector illustrations created for this training deck.", size=12, color=MUTED)
 
-# ---------- transitions (fade) ----------
-for sl in prs.slides:
+# ---------- transitions (fade; fade-through-black on opener & closer) ----------
+n_slides = len(prs.slides._sldIdLst)
+for si, sl in enumerate(prs.slides):
     el = sl._element
     trans = el.makeelement(qn('p:transition'), {'spd': 'med'})
     fade = el.makeelement(qn('p:fade'), {})
+    if si in (0, n_slides-2):          # title & closer: cinematic fade through black
+        fade.set('thruBlk', '1')
     trans.append(fade)
     el.insert(2, trans)
 
