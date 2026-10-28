@@ -61,3 +61,11 @@ Speaker notes added per slide (bonus).
   * FINAL pptx id 1p1z-UOWQSVAkqMnJe6jh5qTWJpYz3fGs
   * Slides preview id 1orZMxJoeNxZ-LkxB50T4-NkZ5XQVb5NC3EbUFn_wqCM
   * old finals + all render-checks trashed. TASK COMPLETE.
+
+## Turn update — 2026-10-28 (Drive reorg per user)
+- User is assigning each AI model a folder inside "Arena Workspace Backup": ai 1 / ai 2 / ai 3 / ai 5 for other models, THIS session = "ai 4".
+- Checked for trash damage: NONE of our files were trashed (final pptx, folder, backup root all intact).
+- Created folder "ai 4" (id 1SoJolisHq-gT3aXQgSySrs9devvx3cJE) in Arena Workspace Backup.
+- Moved FINAL pptx (1p1z-UOWQSVAkqMnJe6jh5qTWJpYz3fGs) directly into ai 4.
+- Old project folder (1u4yDGWUkZSDHDT2VptdaXmrgboc3Zytv) renamed "working files (preview, original, logbook)" and moved inside ai 4.
+- RULE GOING FORWARD: all deliverables from this session go in "ai 4". Do not touch ai 1/2/3/5 (other models' folders).
