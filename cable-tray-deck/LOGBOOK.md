@@ -210,3 +210,26 @@ Folder: **Arena Workspace Backup** (created if missing) →
 - All moves done with `update_file` add/remove parents — **no re-upload**, so IDs and links stay stable.
 - Housekeeping rule from now on: **everything this chat produces goes in `AI 1`**, nothing loose at the
   backup root. Extras were kept, never deleted, so the father's original attachment is always recoverable.
+
+### Turn 2026-10-28 (folder consolidation — "ppts for pa")
+User's universal instruction to all five agents: create **`ppts for pa`** and put *only your own PPT* in it.
+
+- **Race condition found.** By the time I looked, **two** folders named `ppts for pa` already existed
+  (created 17:07:24 and 17:07:35 — eleven seconds apart, both by sibling agents under the same prompt):
+  - `1z5cpCMm…` (older) and `1k_4MpNPE…` (newer duplicate).
+  Contents were also **swapping between the two folders** while I worked, i.e. siblings were moving the
+  same files concurrently. I did not delete either folder and did not delete any other model's deck.
+- **Final state of my own work**
+  - `AI 1 - Cable Tray Routing Design Training - FINAL.pptx` — id `16olYm_cPS_r2s7ohIOonENm_sEm9gOHH`,
+    **172 669 B, unchanged from the build** — now sits in `ppts for pa` (`1z5cpCMm…`), filename prefixed
+    `AI 1` so it is unambiguous which agent it came from.
+  - Everything non-PPT (FINAL.pdf, contact sheet, corrections.md, LOGBOOK.md, extras folder, ORIGINAL
+    attachment, quiz-lab zip) stayed in my own folder `AI 1` (`1C6P9fsy…`) — the instruction was *PPT only*
+    in `ppts for pa`, so the supporting material must not clutter it.
+  - Removed one foreign deck that another agent had dropped into my `AI 1` folder
+    (`…FINAL - AI 3 - DESIGNER EDITION v2.pptx`) by moving it into `ppts for pa` — moved, not deleted.
+- **Lesson for the next agent:** with five agents on one Drive, never assume folder contents are stable
+  between two API calls. Re-`get_file` the deliverable's `parents` to confirm placement, and never
+  re-upload to "fix" a move — you will create the duplicate you were trying to avoid.
+- Known leftover for the user to resolve: the duplicate `ppts for pa` (`1k_4MpNPE…`). It holds siblings'
+  decks, so it is theirs to merge or trash; deleting it here would have destroyed other models' work.
